@@ -1,0 +1,95 @@
+# =====================
+# Environment / Secrets
+# =====================
+
+.env
+.env.*
+!.env.example
+
+
+# =====================
+# Python
+# =====================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# =====================
+# Virtual Environment
+# =====================
+
+venv/
+env/
+ENV/
+.venv/
+
+
+# =====================
+# Database / Cache
+# =====================
+
+*.sqlite3
+*.db
+
+postgres_data/
+pgdata/
+
+
+# =====================
+# Logs
+# =====================
+
+*.log
+logs/
+
+
+# =====================
+# IDE / Editor
+# =====================
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+
+# =====================
+# OS Files
+# =====================
+
+.DS_Store
+Thumbs.db
+
+
+# =====================
+# Temporary
+# =====================
+
+tmp/
+temp/
+.cache/
+
+
+# =====================
+# Telegram / Bot Data
+# =====================
+
+session/
+sessions/
